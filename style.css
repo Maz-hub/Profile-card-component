@@ -9,9 +9,10 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   font-size: 18px;
   line-height: 1.7;
-  background: url(images/bg-pattern-top.svg) -35% -400px no-repeat,
-    url(images/bg-pattern-bottom.svg) 125% 350px no-repeat;
   background-color: hsl(185, 75%, 39%);
+  background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 52vw bottom 35vh, left 48vw top 52vh;
 }
 
 main {
